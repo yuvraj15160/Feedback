@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(211, 128, 20);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.landing-page{
+  background: white url("https://i.pinimg.com/originals/cf/6e/15/cf6e158d82c6a07d53f8408bbe4beda4.png") no-repeat scroll center;
+  background-size: cover;
+  height: 100vh;
+  color: #c8cfcf;
+}
+.wrapper{
+  background-color: rgba(0,0,0,0.7);
+  height: 100%;
+}
+
+.finalpart{
+
+  height:50px;
+  color: rgb(166, 99, 99);
+}
+
+.bg-111{
+  background-image: linear-gradient(to right, #189AB4 ,#a4c2e0);
+}
+.bg-11{
+  background-image: linear-gradient(to bottom, #5bb4c6 ,#a4c2e0,#5bb4c6); 
+}
+.bg-1{
+  background-image: linear-gradient(to top, #5bb4c6 ,#a4c2e0); 
+
+  
+}
+.bg-113{
+
+  background-color: #189AB4;
+}
+#notify{
+  color: rgb(103, 103, 178);
+  background-color: rgb(232, 219, 245);
+  width: 15rem;
+  margin: auto;
+  /* z-index: 10 !important; */
+  /* transform: translateY(140%);  */
+ animation: come-from-above 5s;
+  
+}
+.bg-nav{
+  background-color: #08687c;;
+}
+
+@keyframes come-from-above{
+from{
+  transform: translateY(-100%);
+
+}
+
+to{
+  transform: translateY(100%);
+}
+
+}
